@@ -1,0 +1,31 @@
+{
+  "name": "blog-api",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "ejs": "^2.3.4",
+    "include-all": "^1.0.0",
+    "jsonwebtoken": "^7.3.0",
+    "machinepack-passwords": "^2.3.0",
+    "rc": "^1.0.1",
+    "sails": "~0.12.13",
+    "sails-disk": "~0.10.9",
+    "sails-hook-autoreload": "^0.13.2",
+    "sails-mongo": "^0.12.2",
+    "sails-mysql": "^0.11.5"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/HaiderMalik/blog-api.git"
+  },
+  "author": "HaiderMalik",
+  "license": ""
+}
